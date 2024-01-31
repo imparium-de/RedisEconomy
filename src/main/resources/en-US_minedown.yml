@@ -28,7 +28,7 @@ switchCurrencySuccess: '&aSwitched %currency% to %switch-currency%.\n&aPlease re
 noTransactionFound: '&cNo transaction found for %player%!'
 incorrectDate: '&cIncorrect Date formatting !'
 transactionsStart: '&3Transactions of player %player% from %after% to %before%!'
-transactionsEnd: '&3End of %player% transactions in %time% ms'
+transactionsEnd: '[<<](run_command=/browse-transactions %player% %after% %before% %prev_page% show_text=&2Previous page) %page% / %total_pages% [>>](run_command=/browse-transactions %player% %after% %before% %next_page% show_text=&2Next Page)'
 transactionsArchiveCompleted: '&aArchived %size% transaction accounts to %file%'
 transactionsArchiveProgress: '&bArchiving progress: %progress%% '
 editMessageError: '&cThis config entry is not a String or doesnt exist!'
